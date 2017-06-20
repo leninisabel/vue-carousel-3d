@@ -2,11 +2,11 @@
     <div class="carousel-3d-controls">
         <a href="#" class="prev" @click.prevent="parent.goPrev()"
            :class="{ disabled: !parent.isPrevPossible }">
-            <span>&lsaquo;</span>
+            <span class="prevBtn">&nbsp;</span>
         </a>
         <a href="#" class="next" @click.prevent="parent.goNext()"
            :class="{ disabled: !parent.isNextPossible }">
-            <span>&rsaquo;</span>
+            <span class="nextBtn">&nbsp;</span>
         </a>
     </div>
 </template>
